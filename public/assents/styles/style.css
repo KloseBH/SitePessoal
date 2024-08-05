@@ -6,6 +6,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+footer{
+    background-color: black;
+}
+
+/*Etilização Navbar*/
+
 .navbar{
     background-image: url('/public/assents/images/fundo2M.jpg');
     background-size: cover; /* Faz com que a imagem cubra o container */
@@ -14,6 +20,11 @@ body{
     background-position: center;
     width: 100%; 
     height: 800px; 
+}
+
+.centered-item{
+    margin:0;
+    padding: 0;
 }
 
 .centered-item img{
@@ -25,14 +36,14 @@ body{
 }
 
 .centered-item h4{
-    margin: 10px;
-    margin-left: -15%;
+    margin-top: 10px;
     color:white;
 }
 
 /*Faz a imagem pulsar*/
 #FotoPerfil {
-    border: 25px solid lightblue; /* Cor e tamanho da borda */
+    border: 25px solid white; /* Cor e tamanho da borda */
+    margin-left: 3rem;
 }
 
 /* Animação de borda */
@@ -56,4 +67,31 @@ body{
 
 .animar {
     animation: pulsar 3s infinite;
+}
+
+/*Estilização do Main*/
+.titulo{
+    background-color: black;
+    padding: 0px 50px;
+    font-style: italic;
+    margin: 10px;
+    font-weight: bold;
+    color:white
+}
+
+main hr{
+    color: white;
+}
+
+/*Estilização da aba Projetos*/
+#Projetos, #Infos{
+    background-color: black;
+    height: 80px;
+}
+
+#Projetos h1, #Infos h1{
+    font-size: 50px;
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white
 }
