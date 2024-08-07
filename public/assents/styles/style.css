@@ -78,8 +78,8 @@ footer {
 .centered-item img {
     height: 15rem;
     width: 15rem;
-    border-radius: 20%;
-    border: 25px solid white;
+    border-radius: 30%;
+    border: 25px solid green
     /* Cor e tamanho da borda */
 }
 
@@ -98,7 +98,7 @@ footer {
     }
 
     50% {
-        border-width: 10px;
+        border-width: 6px;
     }
 
     75% {
