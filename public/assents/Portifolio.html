@@ -14,14 +14,16 @@
     <script src="/public/assents/scripts/script.js"></script>
     <title>Portifolio</title>
     <link rel="icon" href="/public/assents/images/Icon-site-32x32.png" type="image/png">
-
 </head>
 
-<body>
-    <header class="navbar container-fluid d-flex justify-content-center align-items-center">
-        <nav class="options p-3 align-items-center">
-            <ul class="d-flex list-unstyled">
-                <li class="mx-3"><a href="#Infos">Informações</a></li>
+<body class="bg-dark">
+    <header class="navbar container-fluid d-flex justify-content-center align-items-center" id="Infos">
+        <nav class="options p-3">
+            <ul class="d-flex justify-content-end list-unstyled"><!--rever links-->
+                <li class="mx-3"><a href="#SobreMim">Sobre</a></li>
+                <li class="mx-3"><a href="#Habilidades">Habilidades</a></li>
+                <li class="mx-3"><a href="#Experiencias">Experiências</a></li>
+                <li class="mx-3"><a href="#Escolaridade">Escolaridade</a></li>
                 <li class="mx-3"><a href="#Projetos">Projetos</a></li>
             </ul>
         </nav>
@@ -29,144 +31,265 @@
             <div class="col-md-5 ms-4">
                 <h3>Olá me chamo</h3>
                 <h1>Daniel Henrique,</h1>
-                <h3>E sou um <span class="text-success"><b>desenvolvedor</b></span></h3>
+                <h3>E sou um <span class="texto-gradient"><b>desenvolvedor</b></span></h3>
                 <h6>Estou em busca de mais experiências e mais conhecimentos na área de T.I.</h6>
                 <div class="row mt-2">
                     <div class="col-md-1">
-                        <a href="http://www.linkedin.com/in/daniel-henrique-alves-bicalho-dias-0143ab240" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 64 64">
-                                <linearGradient id="SUJNhpmDQDF27Y3OfwgfYa_44019_gr1" x1="19" x2="19" y1="24.858" y2="49.041" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#SUJNhpmDQDF27Y3OfwgfYa_44019_gr1)" fill-rule="evenodd" d="M22 48L22 26 16 26 16 48 22 48z" clip-rule="evenodd"></path><linearGradient id="SUJNhpmDQDF27Y3OfwgfYb_44019_gr2" x1="19.382" x2="19.382" y1="15.423" y2="23.341" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#SUJNhpmDQDF27Y3OfwgfYb_44019_gr2)" fill-rule="evenodd" d="M19.358,23c2.512,0,4.076-1.474,4.076-3.554 c-0.047-2.126-1.564-3.649-4.028-3.649c-2.465,0-4.076,1.475-4.076,3.601c0,2.08,1.563,3.602,3.981,3.602H19.358L19.358,23z" clip-rule="evenodd"></path><linearGradient id="SUJNhpmDQDF27Y3OfwgfYc_44019_gr3" x1="37.386" x2="37.386" y1="14.125" y2="49.525" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#SUJNhpmDQDF27Y3OfwgfYc_44019_gr3)" fill-rule="evenodd" d="M26.946,48H34V35.911c0-0.648,0.122-1.295,0.313-1.758 c0.52-1.295,1.877-2.635,3.867-2.635c2.607,0,3.821,1.988,3.821,4.901V48h6V35.588c0-6.657-3.085-9.498-7.826-9.498 c-3.886,0-5.124,1.91-6.072,3.91H34v-4h-7.054c0.095,2-0.175,22-0.175,22H26.946z" clip-rule="evenodd"></path><linearGradient id="SUJNhpmDQDF27Y3OfwgfYd_44019_gr4" x1="32" x2="32" y1="6.5" y2="57.5" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#1a6dff"></stop><stop offset="1" stop-color="#c822ff"></stop></linearGradient><path fill="url(#SUJNhpmDQDF27Y3OfwgfYd_44019_gr4)" d="M50,57H14c-3.859,0-7-3.141-7-7V14c0-3.859,3.141-7,7-7h36c3.859,0,7,3.141,7,7v36 C57,53.859,53.859,57,50,57z M14,9c-2.757,0-5,2.243-5,5v36c0,2.757,2.243,5,5,5h36c2.757,0,5-2.243,5-5V14c0-2.757-2.243-5-5-5H14z"></path>
-                                </svg>
+                        <a href="http://www.linkedin.com/in/daniel-henrique-alves-bicalho-dias-0143ab240"
+                            target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                                viewBox="0 0 64 64">
+                                <linearGradient id="SUJNhpmDQDF27Y3OfwgfYa_44019_gr1" x1="19" x2="19" y1="24.858"
+                                    y2="49.041" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#6dc7ff"></stop>
+                                    <stop offset="1" stop-color="#e6abff"></stop>
+                                </linearGradient>
+                                <path fill="url(#SUJNhpmDQDF27Y3OfwgfYa_44019_gr1)" fill-rule="evenodd"
+                                    d="M22 48L22 26 16 26 16 48 22 48z" clip-rule="evenodd"></path>
+                                <linearGradient id="SUJNhpmDQDF27Y3OfwgfYb_44019_gr2" x1="19.382" x2="19.382"
+                                    y1="15.423" y2="23.341" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#6dc7ff"></stop>
+                                    <stop offset="1" stop-color="#e6abff"></stop>
+                                </linearGradient>
+                                <path fill="url(#SUJNhpmDQDF27Y3OfwgfYb_44019_gr2)" fill-rule="evenodd"
+                                    d="M19.358,23c2.512,0,4.076-1.474,4.076-3.554 c-0.047-2.126-1.564-3.649-4.028-3.649c-2.465,0-4.076,1.475-4.076,3.601c0,2.08,1.563,3.602,3.981,3.602H19.358L19.358,23z"
+                                    clip-rule="evenodd"></path>
+                                <linearGradient id="SUJNhpmDQDF27Y3OfwgfYc_44019_gr3" x1="37.386" x2="37.386"
+                                    y1="14.125" y2="49.525" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#6dc7ff"></stop>
+                                    <stop offset="1" stop-color="#e6abff"></stop>
+                                </linearGradient>
+                                <path fill="url(#SUJNhpmDQDF27Y3OfwgfYc_44019_gr3)" fill-rule="evenodd"
+                                    d="M26.946,48H34V35.911c0-0.648,0.122-1.295,0.313-1.758 c0.52-1.295,1.877-2.635,3.867-2.635c2.607,0,3.821,1.988,3.821,4.901V48h6V35.588c0-6.657-3.085-9.498-7.826-9.498 c-3.886,0-5.124,1.91-6.072,3.91H34v-4h-7.054c0.095,2-0.175,22-0.175,22H26.946z"
+                                    clip-rule="evenodd"></path>
+                                <linearGradient id="SUJNhpmDQDF27Y3OfwgfYd_44019_gr4" x1="32" x2="32" y1="6.5" y2="57.5"
+                                    gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#1a6dff"></stop>
+                                    <stop offset="1" stop-color="#c822ff"></stop>
+                                </linearGradient>
+                                <path fill="url(#SUJNhpmDQDF27Y3OfwgfYd_44019_gr4)"
+                                    d="M50,57H14c-3.859,0-7-3.141-7-7V14c0-3.859,3.141-7,7-7h36c3.859,0,7,3.141,7,7v36 C57,53.859,53.859,57,50,57z M14,9c-2.757,0-5,2.243-5,5v36c0,2.757,2.243,5,5,5h36c2.757,0,5-2.243,5-5V14c0-2.757-2.243-5-5-5H14z">
+                                </path>
+                            </svg>
                         </a>
                     </div>
                     <div class="col-md-1">
                         <a href="" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 64 64">
-                                <linearGradient id="jm_nAfYbxsVmTlYr5N4x9a_43625_gr1" x1="32" x2="32" y1="6.667" y2="57.872" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#1a6dff"></stop><stop offset="1" stop-color="#c822ff"></stop></linearGradient><path fill="url(#jm_nAfYbxsVmTlYr5N4x9a_43625_gr1)" d="M44,57H20c-7.168,0-13-5.832-13-13V20c0-7.168,5.832-13,13-13h24c7.168,0,13,5.832,13,13v24 C57,51.168,51.168,57,44,57z M20,9C13.935,9,9,13.935,9,20v24c0,6.065,4.935,11,11,11h24c6.065,0,11-4.935,11-11V20 c0-6.065-4.935-11-11-11H20z"></path><linearGradient id="jm_nAfYbxsVmTlYr5N4x9b_43625_gr2" x1="32" x2="32" y1="18.167" y2="45.679" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#jm_nAfYbxsVmTlYr5N4x9b_43625_gr2)" d="M32,45c-7.168,0-13-5.832-13-13c0-7.168,5.832-13,13-13c7.168,0,13,5.832,13,13 C45,39.168,39.168,45,32,45z M32,23c-4.962,0-9,4.038-9,9c0,4.963,4.038,9,9,9c4.963,0,9-4.037,9-9C41,27.038,36.963,23,32,23z"></path><linearGradient id="jm_nAfYbxsVmTlYr5N4x9c_43625_gr3" x1="46" x2="46" y1="12.75" y2="23.049" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#jm_nAfYbxsVmTlYr5N4x9c_43625_gr3)" d="M46 15A3 3 0 1 0 46 21A3 3 0 1 0 46 15Z"></path>
-                                </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                                viewBox="0 0 64 64">
+                                <linearGradient id="jm_nAfYbxsVmTlYr5N4x9a_43625_gr1" x1="32" x2="32" y1="6.667"
+                                    y2="57.872" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#1a6dff"></stop>
+                                    <stop offset="1" stop-color="#c822ff"></stop>
+                                </linearGradient>
+                                <path fill="url(#jm_nAfYbxsVmTlYr5N4x9a_43625_gr1)"
+                                    d="M44,57H20c-7.168,0-13-5.832-13-13V20c0-7.168,5.832-13,13-13h24c7.168,0,13,5.832,13,13v24 C57,51.168,51.168,57,44,57z M20,9C13.935,9,9,13.935,9,20v24c0,6.065,4.935,11,11,11h24c6.065,0,11-4.935,11-11V20 c0-6.065-4.935-11-11-11H20z">
+                                </path>
+                                <linearGradient id="jm_nAfYbxsVmTlYr5N4x9b_43625_gr2" x1="32" x2="32" y1="18.167"
+                                    y2="45.679" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#6dc7ff"></stop>
+                                    <stop offset="1" stop-color="#e6abff"></stop>
+                                </linearGradient>
+                                <path fill="url(#jm_nAfYbxsVmTlYr5N4x9b_43625_gr2)"
+                                    d="M32,45c-7.168,0-13-5.832-13-13c0-7.168,5.832-13,13-13c7.168,0,13,5.832,13,13 C45,39.168,39.168,45,32,45z M32,23c-4.962,0-9,4.038-9,9c0,4.963,4.038,9,9,9c4.963,0,9-4.037,9-9C41,27.038,36.963,23,32,23z">
+                                </path>
+                                <linearGradient id="jm_nAfYbxsVmTlYr5N4x9c_43625_gr3" x1="46" x2="46" y1="12.75"
+                                    y2="23.049" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#6dc7ff"></stop>
+                                    <stop offset="1" stop-color="#e6abff"></stop>
+                                </linearGradient>
+                                <path fill="url(#jm_nAfYbxsVmTlYr5N4x9c_43625_gr3)"
+                                    d="M46 15A3 3 0 1 0 46 21A3 3 0 1 0 46 15Z"></path>
+                            </svg>
                         </a>
                     </div>
                     <div class="col-md-1">
                         <a href="https://github.com/KloseBH" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 64 64">
-                                <linearGradient id="KpzH_ttTMIjq8dhx1zD2pa_52539_gr1" x1="30.999" x2="30.999" y1="16" y2="55.342" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><path fill="url(#KpzH_ttTMIjq8dhx1zD2pa_52539_gr1)" d="M25.008,56.007c-0.003-0.368-0.006-1.962-0.009-3.454l-0.003-1.55 c-6.729,0.915-8.358-3.78-8.376-3.83c-0.934-2.368-2.211-3.045-2.266-3.073l-0.124-0.072c-0.463-0.316-1.691-1.157-1.342-2.263 c0.315-0.997,1.536-1.1,2.091-1.082c3.074,0.215,4.63,2.978,4.694,3.095c1.569,2.689,3.964,2.411,5.509,1.844 c0.144-0.688,0.367-1.32,0.659-1.878C20.885,42.865,15.27,40.229,15.27,30.64c0-2.633,0.82-4.96,2.441-6.929 c-0.362-1.206-0.774-3.666,0.446-6.765l0.174-0.442l0.452-0.144c0.416-0.137,2.688-0.624,7.359,2.433 c1.928-0.494,3.969-0.749,6.074-0.759c2.115,0.01,4.158,0.265,6.09,0.759c4.667-3.058,6.934-2.565,7.351-2.433l0.451,0.145 l0.174,0.44c1.225,3.098,0.813,5.559,0.451,6.766c1.618,1.963,2.438,4.291,2.438,6.929c0,9.591-5.621,12.219-10.588,13.087 c0.563,1.065,0.868,2.402,0.868,3.878c0,1.683-0.007,7.204-0.015,8.402l-2-0.014c0.008-1.196,0.015-6.708,0.015-8.389 c0-2.442-0.943-3.522-1.35-3.874l-1.73-1.497l2.274-0.253c5.205-0.578,10.525-2.379,10.525-11.341c0-2.33-0.777-4.361-2.31-6.036 l-0.43-0.469l0.242-0.587c0.166-0.401,0.894-2.442-0.043-5.291c-0.758,0.045-2.568,0.402-5.584,2.447l-0.384,0.259l-0.445-0.123 c-1.863-0.518-3.938-0.796-6.001-0.806c-2.052,0.01-4.124,0.288-5.984,0.806l-0.445,0.123l-0.383-0.259 c-3.019-2.044-4.833-2.404-5.594-2.449c-0.935,2.851-0.206,4.892-0.04,5.293l0.242,0.587l-0.429,0.469 c-1.536,1.681-2.314,3.712-2.314,6.036c0,8.958,5.31,10.77,10.504,11.361l2.252,0.256l-1.708,1.49 c-0.372,0.325-1.03,1.112-1.254,2.727l-0.075,0.549l-0.506,0.227c-1.321,0.592-5.839,2.162-8.548-2.485 c-0.015-0.025-0.544-0.945-1.502-1.557c0.646,0.639,1.433,1.673,2.068,3.287c0.066,0.19,1.357,3.622,7.28,2.339l1.206-0.262 l0.012,3.978c0.003,1.487,0.006,3.076,0.009,3.444L25.008,56.007z"></path><linearGradient id="KpzH_ttTMIjq8dhx1zD2pb_52539_gr2" x1="32" x2="32" y1="5" y2="59.167" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#1a6dff"></stop><stop offset="1" stop-color="#c822ff"></stop></linearGradient><path fill="url(#KpzH_ttTMIjq8dhx1zD2pb_52539_gr2)" d="M32,58C17.663,58,6,46.337,6,32S17.663,6,32,6s26,11.663,26,26S46.337,58,32,58z M32,8 C18.767,8,8,18.767,8,32s10.767,24,24,24s24-10.767,24-24S45.233,8,32,8z"></path>
-                                </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                                viewBox="0 0 64 64">
+                                <linearGradient id="KpzH_ttTMIjq8dhx1zD2pa_52539_gr1" x1="30.999" x2="30.999" y1="16"
+                                    y2="55.342" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#6dc7ff"></stop>
+                                    <stop offset="1" stop-color="#e6abff"></stop>
+                                </linearGradient>
+                                <path fill="url(#KpzH_ttTMIjq8dhx1zD2pa_52539_gr1)"
+                                    d="M25.008,56.007c-0.003-0.368-0.006-1.962-0.009-3.454l-0.003-1.55 c-6.729,0.915-8.358-3.78-8.376-3.83c-0.934-2.368-2.211-3.045-2.266-3.073l-0.124-0.072c-0.463-0.316-1.691-1.157-1.342-2.263 c0.315-0.997,1.536-1.1,2.091-1.082c3.074,0.215,4.63,2.978,4.694,3.095c1.569,2.689,3.964,2.411,5.509,1.844 c0.144-0.688,0.367-1.32,0.659-1.878C20.885,42.865,15.27,40.229,15.27,30.64c0-2.633,0.82-4.96,2.441-6.929 c-0.362-1.206-0.774-3.666,0.446-6.765l0.174-0.442l0.452-0.144c0.416-0.137,2.688-0.624,7.359,2.433 c1.928-0.494,3.969-0.749,6.074-0.759c2.115,0.01,4.158,0.265,6.09,0.759c4.667-3.058,6.934-2.565,7.351-2.433l0.451,0.145 l0.174,0.44c1.225,3.098,0.813,5.559,0.451,6.766c1.618,1.963,2.438,4.291,2.438,6.929c0,9.591-5.621,12.219-10.588,13.087 c0.563,1.065,0.868,2.402,0.868,3.878c0,1.683-0.007,7.204-0.015,8.402l-2-0.014c0.008-1.196,0.015-6.708,0.015-8.389 c0-2.442-0.943-3.522-1.35-3.874l-1.73-1.497l2.274-0.253c5.205-0.578,10.525-2.379,10.525-11.341c0-2.33-0.777-4.361-2.31-6.036 l-0.43-0.469l0.242-0.587c0.166-0.401,0.894-2.442-0.043-5.291c-0.758,0.045-2.568,0.402-5.584,2.447l-0.384,0.259l-0.445-0.123 c-1.863-0.518-3.938-0.796-6.001-0.806c-2.052,0.01-4.124,0.288-5.984,0.806l-0.445,0.123l-0.383-0.259 c-3.019-2.044-4.833-2.404-5.594-2.449c-0.935,2.851-0.206,4.892-0.04,5.293l0.242,0.587l-0.429,0.469 c-1.536,1.681-2.314,3.712-2.314,6.036c0,8.958,5.31,10.77,10.504,11.361l2.252,0.256l-1.708,1.49 c-0.372,0.325-1.03,1.112-1.254,2.727l-0.075,0.549l-0.506,0.227c-1.321,0.592-5.839,2.162-8.548-2.485 c-0.015-0.025-0.544-0.945-1.502-1.557c0.646,0.639,1.433,1.673,2.068,3.287c0.066,0.19,1.357,3.622,7.28,2.339l1.206-0.262 l0.012,3.978c0.003,1.487,0.006,3.076,0.009,3.444L25.008,56.007z">
+                                </path>
+                                <linearGradient id="KpzH_ttTMIjq8dhx1zD2pb_52539_gr2" x1="32" x2="32" y1="5" y2="59.167"
+                                    gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+                                    <stop offset="0" stop-color="#1a6dff"></stop>
+                                    <stop offset="1" stop-color="#c822ff"></stop>
+                                </linearGradient>
+                                <path fill="url(#KpzH_ttTMIjq8dhx1zD2pb_52539_gr2)"
+                                    d="M32,58C17.663,58,6,46.337,6,32S17.663,6,32,6s26,11.663,26,26S46.337,58,32,58z M32,8 C18.767,8,8,18.767,8,32s10.767,24,24,24s24-10.767,24-24S45.233,8,32,8z">
+                                </path>
+                            </svg>
                         </a>
                     </div>
                     <div class="col-md-6 mx-auto">
-                        <a href="/public/assents/images/fundo1M.jpg" download="fundo1M.jpg" class="btn btn-outline-success">
+                        <a href="/public/assents/images/fundo1M.jpg" download="fundo1M.jpg"
+                            class="btn btn-outline-success">
                             Download CV
                         </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-5 centered-item mx-4">
-                <img src="/public/assents/images/fundo3M.jpg" alt="FotoPerfil" id="FotoPerfil" class="animar">    
+                <img src="/public/assents/images/fundo3M.jpg" alt="FotoPerfil" id="FotoPerfil" class="animar">
             </div>
         </div>
-    </header>    
+    </header>
 
     <main>
-        <div class="container-fluid mb-5 d-flex justify-content-center align-items-center" id="Infos">
-            <h1><b>INFORMAÇÕES PESSOAIS</b></h1>
+        <div class="container-fluid" id="SobreMim">
+            <div class="row titulo">
+                <div class="col-md-6">
+                    <h1>SOBRE MIM</h1>
+                </div>
+            </div>
+            <div class="row text-light p-2">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="/public/assents/images/icon-pessoa.png" alt="" style="width: 10rem;height:10rem">
+                </div>
+                <div class="col-md-4">
+                    <p style="font-size: large;">Tenho um grande interesse em programação e desenvolvimento de
+                        software. Com uma base
+                        sólida em C, C#, python, HTML, CSS, JavaScript e algumas bibliotecas e frameworks, estou
+                        buscando
+                        oportunidades para aprofundar meus conhecimentos e ganhar mais experiência na área.
+                        Quero me tornar um profissional mais capacitado, trabalhando em projetos desafiadores e
+                        inovadores.<br><br> Estou sempre em busca de aprender e melhorar minhas habilidades
+                        técnicas.
+                        Gosto de resolver problemas complexos e me sinto motivado em ambientes que promovem o
+                        crescimento e a colaboração. Estou à procura de uma posição onde eu possa aplicar o que
+                        já sei e, ao mesmo tempo, desenvolver novas competências, colaborando com equipes
+                        talentosas e contribuindo para o sucesso de projetos importantes.
+                    </p>
+                </div>
+            </div>
         </div>
 
-        <div class="container mt-5 mb-3" id="InfosBody">
-            <div class="row mb-3">
-                <div class="col-md-7 p-3">
-                    <div class="row titulo">
-                        <h3 class="p-2 mb-2">SOBRE MIM</h3>
-                    </div>
-                    <div class="row">
-                        <div class="card">
-                            <p style="font-size: x-large;">Tenho um grande interesse em programação e desenvolvimento de
-                                software. Com uma base
-                                sólida em C, C#, python, HTML, CSS, JavaScript e algumas bibliotecas e frameworks, estou
-                                buscando
-                                oportunidades para aprofundar meus conhecimentos e ganhar mais experiência na área.
-                                Quero me tornar um profissional mais capacitado, trabalhando em projetos desafiadores e
-                                inovadores.<br><br> Estou sempre em busca de aprender e melhorar minhas habilidades
-                                técnicas.
-                                Gosto de resolver problemas complexos e me sinto motivado em ambientes que promovem o
-                                crescimento e a colaboração. Estou à procura de uma posição onde eu possa aplicar o que
-                                já sei e, ao mesmo tempo, desenvolver novas competências, colaborando com equipes
-                                talentosas e contribuindo para o sucesso de projetos importantes.
-                            </p>
+        <div class="container-fluid" id="Habilidades">
+            <div class="row titulo">
+                <h1 class="d-flex justify-content-center">HABILIDADES</h1>
+            </div>
+            <div class="row">
+                <div class="container mt-4">
+                    <div class="row d-flex justify-content-center">
+                        <div class="card text-bg-light col-md-2 m-3" style="width: 12rem;">
+                            <img src="/public/assents/images/icon-html.png" class="card-img blurred" alt="html">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title"><b>HTML E CSS</b></h5>
+                            </div>
+                        </div>
+                        <div class="card text-bg-light col-md-2 m-3" style="width: 12rem;">
+                            <img src="/public/assents/images/icon-javascript.png" class="card-img blurred" alt="html">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title"><b>JavaScript</b></h5>
+                            </div>
+                        </div>
+                        <div class="card text-bg-light col-md-2 m-3" style="width: 12rem;">
+                            <img src="/public/assents/images/icon-python.png" class="card-img blurred" alt="html">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title"><b>Python</b></h5>
+                            </div>
+                        </div>
+                        <div class="card text-bg-light col-md-2 m-3" style="width: 12rem;">
+                            <img src="/public/assents/images/icon-c.png" class="card-img blurred" alt="html">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title"><b>C/C++</b></h5>
+                            </div>
+                        </div>
+                        <div class="card text-bg-light col-md-2 m-3" style="width: 12rem;">
+                            <img src="/public/assents/images/icon-csharp.png" class="card-img blurred" alt="html">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title"><b>C#</b></h5>
+                            </div>
+                        </div>
+                        <div class="card text-bg-light col-md-2 m-3" style="width: 12rem;">
+                            <img src="/public/assents/images/icon-Jquery.png" class="card-img text-danger blurred"
+                                alt="html">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title"><b>JQuery</b></h5>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-5 p-3">
-                    <div class="row titulo">
-                        <h3 class="p-2 mb-2">HABILIDADES</h3>
-                    </div>
-                    <div class="row">
-                        <div class="card">
-                            <div class="container mt-4">
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <h6 class="bg-danger text-white p-3 rounded">HTML e CSS</h6>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <h6 class="bg-warning text-dark p-3 rounded">JavaScript</h6>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <h6 class="bg-primary text-white p-3 rounded">Python</h6>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <h6 class="bg-info text-white p-3 rounded">C/C++</h6>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <h6 class="bg-secondary text-white p-3 rounded">C#</h6>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <h6 class="bg-success text-white p-3 rounded">jQuery</h6>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <h6 class="bg-dark text-white p-3 rounded">Bootstrap</h6>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <h6 class="bg-light text-dark p-3 rounded">SQL</h6>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <h6 class="bg-muted text-dark p-3 rounded">NoSQL</h6>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <h6 class="bg-primary text-white p-3 rounded">Node.js</h6>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <h6 class="bg-info text-white p-3 rounded">PHP</h6>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <h6 class="bg-primary text-white p-3 rounded">Pacote Office</h6>
-                                    </div>
-                                </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="card text-bg-light col-md-2 m-3" style="width: 12rem;">
+                            <img src="/public/assents/images/icon-bootstrap.png" class="card-img text-danger blurred"
+                                alt="html">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title"><b>Bootstrap</b></h5>
+                            </div>
+                        </div>
+                        <div class="card text-bg-light col-md-2 m-3" style="width: 12rem;">
+                            <img src="/public/assents/images/icon-SQL.png" class="card-img text-danger blurred"
+                                alt="html">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title"><b>SQL</b></h5>
+                            </div>
+                        </div>
+                        <div class="card text-bg-light col-md-2 m-3" style="width: 12rem;">
+                            <img src="/public/assents/images/icon-mongoDB.png" class="card-img text-danger blurred"
+                                alt="html">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title"><b>NoSQL</b></h5>
+                            </div>
+                        </div>
+                        <div class="card text-bg-light col-md-2 m-3" style="width: 12rem;">
+                            <img src="/public/assents/images/icon-nodejs.png" class="card-img text-danger blurred"
+                                alt="html">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title"><b>Node.js</b></h5>
+                            </div>
+                        </div>
+                        <div class="card text-bg-light col-md-2 m-3" style="width: 12rem;">
+                            <img src="/public/assents/images/icon-git.png" class="card-img text-danger blurred"
+                                alt="html">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title"><b>Git</b></h5>
+                            </div>
+                        </div>
+                        <div class="card text-bg-light col-md-2 m-3" style="width: 12rem;">
+                            <img src="/public/assents/images/icon-php.png" class="card-img text-danger blurred"
+                                alt="html">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title"><b>PHP</b></h5>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <br>
-            <div class="row mb-3 mt-3">
-                <div class="col-md-6 p-3">
-                    <div class="row titulo">
-                        <h3 class="p-2">EXPERIÊNCIAS PROFISSIONAIS</h3>
-                    </div>
-                    <div class="row p-2">
-                        <div class="card">
-                            <h3>LITE COLTEC</h3>
-                            <h6>Pesquisador - Desenvolver</h6><br>
-                            <p><b>Inicio:</b> Fevereiro - 2022<br><b>Término:</b> Dezembro - 2022</p>
-                            <p><b>Descrição:</b><br>
+        </div>
+
+        <div class="container-fluid" id="Experiencias">
+            <div class="row titulo">
+                <h1 class="d-flex justify-content-end">EXPERIÊNCIAS PROFISSIONAIS</h1>
+            </div>
+            <div>
+                <div class="row p-2">
+                    <div class="row d-flex align-items-center text-light">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <h3>LITE COLTEC</h3>
+                                <h6>Pesquisador - Desenvolver</h6><br>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="/public/assents/images/coltec-logo.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>Fevereiro - 2022</h3>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>Dezembro - 2022</h3>
+                                </div>
+                            </div>
+                            <div class="row">
                                 Participei ativamente de um projeto de pesquisa na UFMG, em resposta a uma demanda da
                                 COPASA. Co-criei o projeto, que envolveu o uso de microcontroladores, linguagem C/C++, e
                                 a tecnologia LoraWAN, entre outros componentes eletrônicos. Em colaboração com minha
@@ -176,67 +299,95 @@
                                 integração em nosso projeto. Esse desafio nos permitiu aprimorar nossas habilidades de
                                 pesquisa e desenvolvimento, ao mesmo tempo em que entregamos soluções inovadoras para a
                                 COPASA. O projeto foi patenteado no nome dos participantes e nos forneceu certificados.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row p-2">
-                        <div class="card">
-                            <h3>ENGAGE ELETRO</h3>
-                            <h6>Auxiliar de T.I.</h6><br>
-                            <p><b>Inicio:</b> Março - 2024<br><b>Término:</b> Atual Emprego</p>
-                            <p><b>Descrição:</b><br>
-                                Na Engage, trabalho como auxiliar de TI, com foco na administração do sistema ERP da
-                                empresa. Minhas tarefas incluem gerenciar notas fiscais e pedidos, além de criar
-                                relatórios detalhados. Também cuido da infraestrutura tecnológica, organizando e
-                                substituindo equipamentos quando necessário. Além disso, atendo às demandas de outros
-                                departamentos, garantindo que tudo funcione de maneira eficiente.
-                                <br><br>
-                                Participo de vários treinamentos na Engage que me ajudam a entender melhor as operações
-                                de cada setor e a utilizar ferramentas como Excel e Power BI, o que me permite aprimorar
-                                constantemente minhas habilidades e contribuir de forma mais eficaz para a equipe.
-                            </p>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 p-3">
-                    <div class="row titulo">
-                        <h3 class="p-2">ESCOLARIEDADE</h3>
-                    </div>
-                    <div class="row p-2">
-                        <div class="card">
-                            <h3>COLTEC UFMG</h3>
-                            <h6>Ensino técnico</h6><br>
-                            <p>
-                               <b>Inicio: </b>Fevereiro - 2020<br>
-                               <b>Término: </b>Dezembro - 2022<br>
-                               <b>Curso: </b>Eletrônica                       
-                            </p>
-                            <p style="margin-bottom: 0;"><b>Habilidades Adquiridas:</b></p>
-                            <ul>
-                                <li>C/C++</li>
-                                <li>Análise de sistemas eletrônicos</li>
-                                <li>Microcontroladores</li>
-                                <li>Conhecimentos básicos e avançados de eletrõnica</li>
-                            </ul>
+                <hr>
+                <div class="row p-2">
+                    <div class="row d-flex align-items-center text-light">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <h3>ENGAGE ELETRO</h3>
+                                <h6>Auxiliar de T.I.</h6><br>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="/public/assents/images/engage-logo.png" width="600rem" style="background-color: white;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>Março - 2024</h3>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>Atual Emprego</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p>
+                                    Na Engage, trabalho como auxiliar de TI, com foco na administração do sistema ERP da
+                                    empresa. Minhas tarefas incluem gerenciar notas fiscais e pedidos, além de criar
+                                    relatórios detalhados. Também cuido da infraestrutura tecnológica, organizando e
+                                    substituindo equipamentos quando necessário. Além disso, atendo às demandas de
+                                    outros
+                                    departamentos, garantindo que tudo funcione de maneira eficiente.
+                                    <br><br>
+                                    Participo de vários treinamentos na Engage que me ajudam a entender melhor as
+                                    operações
+                                    de cada setor e a utilizar ferramentas como Excel e Power BI, o que me permite
+                                    aprimorar
+                                    constantemente minhas habilidades e contribuir de forma mais eficaz para a equipe.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="row p-2">
-                        <div class="card">
-                            <h3>PUC MINAS</h3>
-                            <h6>Graduação Tecnólogo</h6><br>
-                            <p>
-                               <b>Inicio: </b>Fevereiro - 2023<br>
-                               <b>Término: </b>Junho - 2025<br>
-                               <b>Curso: </b>Análise e Desenvolvimento de Sistemas                      
-                            </p>
-                            <p style="margin-bottom: 0;"><b>Habilidades Adquiridas:</b></p>
-                            <ul>
-                                <li>C#</li>
-                                <li>HTML, CSS e JavaScript</li>
-                                <li>Análise de requisitos de software</li>
-                                <li>Desenvolvimento mobile</li>
-                            </ul>
-                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="Escolaridade">
+            <div class="row titulo">
+                <h1>ESCOLARIEDADE</h1>
+            </div>
+            <div>
+                <div class="row p-2">
+                    <div class="card">
+                        <h3>COLTEC UFMG</h3>
+                        <h6>Ensino técnico</h6><br>
+                        <p>
+                            <b>Inicio: </b>Fevereiro - 2020<br>
+                            <b>Término: </b>Dezembro - 2022<br>
+                            <b>Curso: </b>Eletrônica
+                        </p>
+                        <p style="margin-bottom: 0;"><b>Habilidades Adquiridas:</b></p>
+                        <ul>
+                            <li>C/C++</li>
+                            <li>Análise de sistemas eletrônicos</li>
+                            <li>Microcontroladores</li>
+                            <li>Conhecimentos básicos e avançados de eletrõnica</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div class="card">
+                        <h3>PUC MINAS</h3>
+                        <h6>Graduação Tecnólogo</h6><br>
+                        <p>
+                            <b>Inicio: </b>Fevereiro - 2023<br>
+                            <b>Término: </b>Junho - 2025<br>
+                            <b>Curso: </b>Análise e Desenvolvimento de Sistemas
+                        </p>
+                        <p style="margin-bottom: 0;"><b>Habilidades Adquiridas:</b></p>
+                        <ul>
+                            <li>C#</li>
+                            <li>HTML, CSS e JavaScript</li>
+                            <li>Análise de requisitos de software</li>
+                            <li>Desenvolvimento mobile</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -245,8 +396,6 @@
         <div class="container-fluid mt-5 mb-5 d-flex justify-content-center align-items-center" id="Projetos">
             <h1><b>PROJETOS</b></h1>
         </div>
-
-        <div class="container mt-5 mb-3" id="ProjetosBody"></div>
 
     </main>
 

@@ -1,13 +1,15 @@
 $(document).ready(function() {
-    $("#InfosBody, #ProjetosBody, .centered-item img" ).css("display", "none");
+    //$("#SobreMim, #Habilidades, #Experiencias, #Escolaridade, .centered-item img" ).css("display", "none");
 
     $("#Infos").mouseenter(function() {
-        var altura = $("#InfosBody");
-        $("#InfosBody").slideDown(2000); 
+        $("#SobreMim").slideDown(1000); 
+        $("#Habilidades").slideDown(1500); 
+        $("#Experiencias").slideDown(2000); 
+        $("#Escolaridade").slideDown(2500); 
     });
 
     $("#Projetos").mouseenter(function() {
-        $("ProjetosBody").slideDown(2000);
+        //Colocar animações dos projetos aqui
     });
 
     $(".centered-item img").fadeIn(1000);

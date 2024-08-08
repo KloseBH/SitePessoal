@@ -42,6 +42,7 @@ footer {
     top: 0px;
     width: 100%;
     z-index: 1;
+    margin-right: 30rem;
 }
 
 .options ul {
@@ -59,13 +60,15 @@ footer {
 .options ul li a {
     text-decoration: none;
     color: white;
-    /* Cor do texto */
     font-size: 18px;
     font-weight: bold;
 }
 
 .options ul li a:hover {
-    color: rgb(66, 245, 66);
+    background: linear-gradient(to right, rgb(132, 0, 255), rgb(0, 140, 255));
+    -webkit-background-clip: text;
+    color: transparent; 
+    display: inline; 
 }
 
 /* Estilos para a imagem e título */
@@ -79,8 +82,12 @@ footer {
     height: 15rem;
     width: 15rem;
     border-radius: 30%;
-    border: 25px solid green
-    /* Cor e tamanho da borda */
+    box-shadow: 
+        0 0 10px rgba(132, 0, 255, 0.5),
+        0 0 20px rgba(132, 0, 255, 0.4),
+        0 0 30px rgba(132, 0, 255, 0.3),
+        0 0 40px rgba(0, 140, 255, 0.3),
+        0 0 50px rgba(0, 140, 255, 0.2);
 }
 
 .centered-item h1 {
@@ -90,23 +97,48 @@ footer {
 /* Animação de borda */
 @keyframes pulsar {
     0% {
-        border-width: 3px;
+        box-shadow: 
+            0 0 10px rgba(132, 0, 255, 0.5),
+            0 0 20px rgba(132, 0, 255, 0.4),
+            0 0 30px rgba(132, 0, 255, 0.3),
+            0 0 40px rgba(0, 140, 255, 0.3),
+            0 0 50px rgba(0, 140, 255, 0.2);
     }
 
     25% {
-        border-width: 4px;
+        box-shadow: 
+            0 0 15px rgba(132, 0, 255, 0.6),
+            0 0 30px rgba(132, 0, 255, 0.5),
+            0 0 40px rgba(132, 0, 255, 0.4),
+            0 0 50px rgba(0, 140, 255, 0.4),
+            0 0 60px rgba(0, 140, 255, 0.3);
     }
 
     50% {
-        border-width: 6px;
+        box-shadow: 
+            0 0 20px rgba(132, 0, 255, 0.7),
+            0 0 40px rgba(132, 0, 255, 0.6),
+            0 0 50px rgba(132, 0, 255, 0.5),
+            0 0 60px rgba(0, 140, 255, 0.5),
+            0 0 70px rgba(0, 140, 255, 0.4);
     }
 
     75% {
-        border-width: 4px;
+        box-shadow: 
+            0 0 15px rgba(132, 0, 255, 0.6),
+            0 0 30px rgba(132, 0, 255, 0.5),
+            0 0 40px rgba(132, 0, 255, 0.4),
+            0 0 50px rgba(0, 140, 255, 0.4),
+            0 0 60px rgba(0, 140, 255, 0.3);
     }
 
     100% {
-        border-width: 3px;
+        box-shadow: 
+            0 0 10px rgba(132, 0, 255, 0.5),
+            0 0 20px rgba(132, 0, 255, 0.4),
+            0 0 30px rgba(132, 0, 255, 0.3),
+            0 0 40px rgba(0, 140, 255, 0.3),
+            0 0 50px rgba(0, 140, 255, 0.2);
     }
 }
 
@@ -116,24 +148,48 @@ footer {
 
 /* Estilização do Main */
 .titulo {
-    background-color: black;
-    padding: 0px 50px;
-    font-style: italic;
-    margin: 10px;
     font-weight: bold;
     color: white;
 }
-
-#Projetos,
-#Infos {
-    background-color: black;
-    height: 80px;
+.titulo h1{
+    background: linear-gradient(to right, rgb(132, 0, 255), rgb(0, 140, 255));
+    -webkit-background-clip: text;
+    color: transparent; 
 }
 
-#Projetos h1,
-#Infos h1 {
+#Projetos{
+    background-color: black;
+    height: 100px;
+}
+
+#Projetos h1{
     font-size: 50px;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    background: linear-gradient(to right, rgb(132, 0, 255), rgb(0, 140, 255));
+    -webkit-background-clip: text;
+    color: transparent; 
+    display: inline; 
 }
+
+.blurred {
+    padding: 1rem;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+.texto-gradient {
+    background: linear-gradient(to right, rgb(132, 0, 255), rgb(0, 140, 255));
+    -webkit-background-clip: text;
+    color: transparent; 
+    display: inline; 
+}
+
+#SobreMim, #Experiencias{
+    background-color: #131313;
+}
+
+#Habilidades, #Escolaridade{
+    background-color: #2C2C2C;
+}
+
